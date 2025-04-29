@@ -15,19 +15,27 @@ You need the following dependencies depending on the language you are using:
    pip install requests openai pandas
 2. Place the provided nutrition_database.csv and household_mapping.json files in the data/ folder.
 
-Node.js Setup:
+### Node.js Setup:
+
 1. Install Node.js dependencies:
+``` bash 
 npm install axios openai
-2. Place the provided nutrition_database.csv and household_mapping.json files in the data/ folder.
+```
+
+2.  Place the provided nutrition_database.csv and household_mapping.json files in the data/ folder.
 Running the Project
 Python:
 Run the Python script:
+```bash
 python main.py
+```
 This will fetch the recipe data, map the ingredients, and calculate the nutritional values for a given dish.
 
 Node.js:
 Run the Node.js app:
+```
 node app.js
+```
 This will do the same functionality as the Python script but using Node.js.
 
 ##File Structure
