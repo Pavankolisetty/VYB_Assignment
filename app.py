@@ -29,8 +29,9 @@ if food_item:
         matched_ings = dish_ingredients[food_item_lower]
         results = nutrition_df[nutrition_df["Ingredient"].isin(matched_ings)]
 
-        st.subheader("Search Results")
+        st.subheader(f"Nutritional Information for '{food_item.title()}'")
         st.dataframe(results)
+
 
         st.subheader("Total Nutrition")
         st.write(results.drop(columns=["Ingredient"]).sum(numeric_only=True))
