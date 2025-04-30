@@ -1,0 +1,22 @@
+{
+    "Wet Sabzi": {
+      "katori": 180,
+      "cup": 240
+    },
+    "Dry Sabzi": {
+      "katori": 150,
+      "cup": 200
+    },
+    "Spices": {
+      "teaspoon": 5,
+      "tablespoon": 15
+    },
+    "Vegetables": {
+      "medium": 150,
+      "large": 200,
+      "small": 100
+    },
+    "Miscellaneous": {
+      "clove": 3
+    }
+}
