@@ -61,6 +61,10 @@ Nutrition is estimated per 100g and extrapolated based on standard serving sizes
 The program handles missing or invalid data gracefully without crashing, logging errors where applicable.
 
 
+### Live Streaming Link
+https://vybassignment-sqbruvbabv2yzz7sqzrtpl.streamlit.app/
+
+
 ### Output Screenshots
 ![Screenshot (33)](https://github.com/user-attachments/assets/a7048bba-a8f8-46bc-a69b-a62230c48281)
 
