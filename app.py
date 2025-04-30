@@ -10,5 +10,5 @@ st.write("Nutrition Data Preview", nutrition_df.head())
 # Add some input fields
 food_item = st.text_input("Enter a food item:")
 if food_item:
-    results = nutrition_df[nutrition_df["Food"].str.contains(food_item, case=False)]
+    results = nutrition_df[nutrition_df["Ingredient"].str.contains(food_item, case=False)]
     st.write("Search Results", results)
