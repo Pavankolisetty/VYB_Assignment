@@ -18,6 +18,11 @@ st.title("VYB AI Nutrition Helper")
 st.subheader("Nutrition Data Preview")
 st.dataframe(nutrition_df)
 
+# Show available dishes
+st.subheader("Available Dishes")
+for dish in dish_ingredients:
+    st.markdown(f"- {dish}")
+
 # Input from user
 food_item = st.text_input("Enter a food item:")
 
